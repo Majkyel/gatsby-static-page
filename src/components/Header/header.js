@@ -4,15 +4,15 @@ import React from "react"
 import styled from 'styled-components'
 
 const HeaderApp = styled.header`
-  background-color: blue;
+  background-color: blue; /* do zmiany */
 `;
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteText }) => (
   <HeaderApp>
     <div>
       <h1>
         <Link to="/">
-          {siteTitle}
+          {siteText}
         </Link>
       </h1>
     </div>
@@ -27,4 +27,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header;
