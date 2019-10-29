@@ -12,7 +12,7 @@ const IndexPage = () => {
       <Logo />
       <Navigation />
     </Header>
-    <p>TEST MAIN PAGE</p>
+    <p>TEST CONTACT PAGE</p>
     <Footer />
   </Layout>
   )
