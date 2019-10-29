@@ -1,3 +1,8 @@
+const backgroundColor = {
+  default: '#FFF',
+  black: '#000'
+}
+
 const buttonColors = {
   primary: '#0081CF',
   dark: '#4B4453',
@@ -12,5 +17,6 @@ const fontColors = {
 
 export default {
   buttonColors,
-  fontColors
+  fontColors,
+  backgroundColor
 };

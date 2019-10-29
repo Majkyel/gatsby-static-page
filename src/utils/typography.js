@@ -1,8 +1,10 @@
 const fontSizes = {
-  h1: '',
-  h2: '',
-  h3: '',
-  h4: '',
-  p: '',
-  p_xs: ''
+  h1: '36px',
+  h2: '32px',
+  h3: '27px',
+  h4: '22px',
+  default: '16px',
+  small: '12px'
 }
+
+export default fontSizes;
