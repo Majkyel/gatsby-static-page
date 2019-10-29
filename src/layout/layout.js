@@ -4,7 +4,7 @@ import GlobalStyles from "../css/GlobalStyle"
 import styled from 'styled-components'
 
 const LayoutWrapper = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   background-color: white;
 `
 
