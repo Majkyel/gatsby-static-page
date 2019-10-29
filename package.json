@@ -4,6 +4,11 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS;"
+    }
+  },
   "dependencies": {
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
@@ -20,6 +25,9 @@
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9",
     "prettier": "^1.18.2"
   },
   "keywords": [
