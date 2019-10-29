@@ -1,30 +1,20 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import styled from 'styled-components'
+import PropTypes from "prop-types";
+import React from "react";
+import styled from 'styled-components';
+import colors from "../../utils/colors";
 
 const HeaderApp = styled.header`
-  background-color: blue; /* do zmiany */
+  background-color: ${(isBlack)=> isBlack ? colors.backgroundColor.black : colors.backgroundColor.default};
+  min-height: 40px;
+  display: flex;
+  padding: 5px 50px;
+  justify-content: space-between;
 `;
 
-const Header = ({ siteText }) => (
+const Header = ({children}) => (
   <HeaderApp>
-    <div>
-      <h1>
-        <Link to="/">
-          {siteText}
-        </Link>
-      </h1>
-    </div>
+    {children}
   </HeaderApp>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header;

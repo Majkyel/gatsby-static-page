@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import colors from '../../utils/colors';
+import typography from '../../utils/typography';
 
 const DefaultButtonWrapper = styled.button`
   display: flex;
@@ -8,7 +9,7 @@ const DefaultButtonWrapper = styled.button`
   align-self: center;
   background-color: ${colors.buttonColors.primary};
   color: ${({isBlack})=> isBlack ? colors.fontColors.black : colors.fontColors.white};
-  font-size: 1em; /* do zmiany do importu */
+  font-size: ${typography.p};
   height: 40px;
   width: 60px;
   padding: 5px;
