@@ -1,6 +1,6 @@
 ## 🚀 Quick start
 
-# This is simple project in Gatsby or GraphQL technologies. Inside project I also use styled-components library to quick implement css styles.
+# This is simple project with Gatsby and GraphQL technologies. In project I also used styled-components library to quick implement css styles.
 
 1.  **Create production version.**
 
